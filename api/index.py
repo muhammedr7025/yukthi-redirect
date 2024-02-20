@@ -23,3 +23,6 @@ def ui_ux():
 @app.route('/hardwarehacking')
 def hardwarehacking():
     return redirect("https://forms.gle/WZQDeMzCBAFBgCEe8", code=302)
+@app.route('/webdev')
+def webdev():
+    return redirect("https://forms.gle/iCnR5mVrTZmMiV7E9", code=302)
