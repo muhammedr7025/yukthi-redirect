@@ -26,3 +26,6 @@ def hardwarehacking():
 @app.route('/webdev')
 def webdev():
     return redirect("https://forms.gle/iCnR5mVrTZmMiV7E9", code=302)
+@app.route('/hackathon')
+def hackathon():
+    return redirect("https://yukthi-hackathon.devfolio.co/", code=302)
