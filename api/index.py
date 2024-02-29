@@ -32,3 +32,6 @@ def hackathon():
 @app.route('/3dprinting')
 def dprinting():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLScwM3e3dw5b9fcIYBa3WHVeLecF-KPw35FUINUjoMnYD74srA/viewform?usp=sf_link", code=302)
+@app.route('/proprogrammer')
+def proprogrammer():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSd2ob9S1OC15fsXuKL_uWGhbhK2UtQCGrAcAeLIPHZ0XZ8DxA/viewform?embedded=true", code=302)
