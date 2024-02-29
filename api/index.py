@@ -29,3 +29,6 @@ def webdev():
 @app.route('/hackathon')
 def hackathon():
     return redirect("https://yukthi-hackathon.devfolio.co/", code=302)
+@app.route('/3dprinting')
+def dprinting():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLScwM3e3dw5b9fcIYBa3WHVeLecF-KPw35FUINUjoMnYD74srA/viewform?usp=sf_link", code=302)
