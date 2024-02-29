@@ -44,3 +44,12 @@ def ctf():
 @app.route('/keyboardmastery')
 def keyboardmastery():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeGkRodPuSC8oFenb33t0GWFtEEUAW69FfzGQTX5fohYF0dKg/viewform?embedded=true", code=302)
+@app.route('/webhunt')
+def webhunt():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfu7FqJTc-eksIUrLXStNLFEyTMdOPARg3-1zqC-LbG0J_i6g/viewform?embedded=true", code=302)
+@app.route('/circuitdebugging')
+def circuitdebugging():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSc47pP1PX5qAxjKbhrms6ojZyCmF01Td0GDFbCng4RO09PTAg/viewform?embedded=true", code=302)
+@app.route('/spanathon')
+def spanathon():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeLDGKur7k4EQxdoWyZXDIolrSbOkJL51vhO6rpDJ5e9YkW0Q/viewform?embedded=true", code=302)
