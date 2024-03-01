@@ -53,3 +53,6 @@ def circuitdebugging():
 @app.route('/spanathon')
 def spanathon():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeLDGKur7k4EQxdoWyZXDIolrSbOkJL51vhO6rpDJ5e9YkW0Q/viewform?embedded=true", code=302)
+@app.route('/segfault')
+def segfault():
+    return redirect("https://app.formbricks.com/eEXUTDkfk4", code=302)
