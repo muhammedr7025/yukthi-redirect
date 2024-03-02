@@ -56,3 +56,6 @@ def spanathon():
 @app.route('/segfault')
 def segfault():
     return redirect("https://app.formbricks.com/eEXUTDkfk4", code=302)
+@app.route('/terminusrobo')
+def terminusrobo():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeeK6ur-MEOMhl2GPADybgF3rXFqdqocCFsHGqOs-cImH_TsQ/viewform?usp=pp_url", code=302)
