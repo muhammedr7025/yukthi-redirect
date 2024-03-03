@@ -59,3 +59,6 @@ def segfault():
 @app.route('/terminusrobo')
 def terminusrobo():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeeK6ur-MEOMhl2GPADybgF3rXFqdqocCFsHGqOs-cImH_TsQ/viewform?usp=pp_url", code=302)
+@app.route('/flutter')
+def flutter():
+    return redirect("https://docs.google.com/forms/d/1xBlHVoxMWio4mUJuSMXPC-nrZ9YCvuZFB0C_Lrik6a4/edit?ts=65e2d0d0", code=302)
