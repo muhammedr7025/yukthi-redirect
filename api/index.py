@@ -62,3 +62,9 @@ def terminusrobo():
 @app.route('/flutter')
 def flutter():
     return redirect("https://www.yukthi.org/events/flutter", code=302)
+@app.route('/mixdesign')
+def mixdesign():
+    return redirect("https://forms.gle/AuXocomjonwfDzuU9", code=302)
+@app.route('/paperpinnacle')
+def mixdesign():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSffN3IgNTCGQo6g04HvhaONfXAdmeYQSoAqXCB9vTcNWXkLEA/viewform", code=302)
