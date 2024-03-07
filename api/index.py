@@ -66,5 +66,5 @@ def flutter():
 def mixdesign():
     return redirect("https://forms.gle/AuXocomjonwfDzuU9", code=302)
 @app.route('/paperpinnacle')
-def mixdesign():
+def paperpinnacle():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSffN3IgNTCGQo6g04HvhaONfXAdmeYQSoAqXCB9vTcNWXkLEA/viewform", code=302)
