@@ -12,3 +12,6 @@ def deep_learning_redirect():
 @app.route('/Game-developement')
 def game_dev_redirect():
     return redirect("https://forms.gle/itc3wofLT7kKpTjZ6", code=302)
+@app.route('/yudhya-hackathon')
+def yudhya_hackathon_redirect():
+    return redirect("https://yudhya.devfolio.co/overview", code=302)
