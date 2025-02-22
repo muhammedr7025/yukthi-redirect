@@ -37,7 +37,9 @@ def unreal_engine_redirect():
 @app.route('/Ai-Llm')
 def ai_llm_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSdLw2aAQQO64Seicvg-h-QMxM_SWAEDjS5Kd5dnT6t1mb-M_g/viewform?usp=header", code=302)
-
+@app.route('/Entrepreneurship')
+def entrepreneurship_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSdLbChTkcGMkfNMd4ytZAZQgRgf103TNRQKe7uD1nx9Eeu9lw/viewform?usp=header", code=302)
 # Only needed if you're running this script directly
 if __name__ == '__main__':
     app.run(debug=True)
