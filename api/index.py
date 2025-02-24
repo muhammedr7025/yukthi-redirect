@@ -95,6 +95,44 @@ def bgmi_redirect():
 def valorant_redirect():
     return redirect("https://forms.gle/WkrV2SQ2vYGtJHy76", code=302)
 
+#All Competitions
+
+@app.route('/ctf')
+def ctf_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSefsoUeAyvETcGTBu0ft7gExKcjR5NVmei9h51zCmqpS7PjVA/viewform?usp=sharing", code=302)
+
+@app.route('/blindprgming')
+def blind_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSd5vb-uTRgDi4autLbvVOljIuUVsutZvTiAy-IaGGfOShIjYw/viewform?usp=sharing", code=302)
+
+@app.route('/Keyboardmastery')
+def keyboard_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLScdmc9xjS5dt8bkmYE8kyMiOJewccYigiF3GoPPJxUFAoA2JA/viewform?usp=sharing", code=302)
+
+@app.route('/circuitdebugging')
+def circuitdebug_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSezrC5itD2CraL2ZgINIO5-JXslBxQYNxUG4828dVSt_uPCEw/viewform?usp=sharing", code=302)
+
+@app.route('/photochallenge')
+def photo_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfMFSCHLqpofb7alrzn3letvE2m1gIy__gnkCS4Ha7XY_wmUQ/viewform?usp=sharing", code=302)
+
+@app.route('/paperpinnacle')
+def paper_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfO8D-D6EWOyp6nL3iAlGi-b3Hj76LLxdlQtFyw3QdkEHgtcw/viewform?usp=sharing", code=302)
+
+@app.route('/iot')
+def iot_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSciRo5_OGTEUrhdR5flAzGPwEX_lLzP0i9-jYGHfjoG8J5PTg/viewform?usp=sharing", code=302)
+
+@app.route('/act')
+def act_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSdjoB2g0Sw0JacIhy5Cy61Gj9aBWYeXEAhWdRoCCA0gwyF2Qg/viewform?usp=sharing", code=302)
+
+@app.route('/fora')
+def fora_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSecTUUFI6GdbXvqw8mWb6rDgMmOyBCexif3btjMy3w02e7mBg/viewform?usp=sharing", code=302)
+
 # Only needed if you're running this script directly
 if __name__ == '__main__':
     app.run(debug=True)
