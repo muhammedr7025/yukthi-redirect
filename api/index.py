@@ -82,27 +82,25 @@ def _3dprinting_redirect():
 def revit_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeOTY4rDjeg8n2kUUCUyV3ZMO6MBQnvrh8WgMUmqMMO2LttnA/viewform", code=302)
 
-
-
-
 # Competitions
+
 @app.route('/ctf')
 def ctf_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSefsoUeAyvETcGTBu0ft7gExKcjR5NVmei9h51zCmqpS7PjVA/viewform", code=302)
 
-@app.route('/blind-programming')
+@app.route('/blind')
 def blind_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSd5vb-uTRgDi4autLbvVOljIuUVsutZvTiAy-IaGGfOShIjYw/viewform", code=302)
 
-@app.route('/keyboard-mastery')
+@app.route('/keyboard')
 def keyboard_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLScdmc9xjS5dt8bkmYE8kyMiOJewccYigiF3GoPPJxUFAoA2JA/viewform", code=302)
 
-@app.route('/circuit-debugging')
+@app.route('/circuitdebug')
 def circuitdebug_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSezrC5itD2CraL2ZgINIO5-JXslBxQYNxUG4828dVSt_uPCEw/viewform", code=302)
 
-@app.route('/photo-challenge')
+@app.route('/photo')
 def photo_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfMFSCHLqpofb7alrzn3letvE2m1gIy__gnkCS4Ha7XY_wmUQ/viewform", code=302)
 
