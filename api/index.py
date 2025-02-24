@@ -56,6 +56,9 @@ def ace_redirect():
 @app.route('/efootball')
 def efootball_redirect():
     return redirect("https://forms.gle/NQTMmf5pZTvCTR3YA", code=302)
+@app.route('/Entrepreneurship')
+def entrepreneurship_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSdLbChTkcGMkfNMd4ytZAZQgRgf103TNRQKe7uD1nx9Eeu9lw/viewform?usp=dialog", code=302)
 # Only needed if you're running this script directly
 if __name__ == '__main__':
     app.run(debug=True)
