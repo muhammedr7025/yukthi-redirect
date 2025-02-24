@@ -19,7 +19,7 @@ def yudhya_hackathon_redirect():
     return redirect("https://yudhya.devfolio.co/overview", code=302)
 
 @app.route('/Entrepreneurship')
-def entrepreneurship_redirect():
+def Entrepreneurship_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSdLbChTkcGMkfNMd4ytZAZQgRgf103TNRQKe7uD1nx9Eeu9lw/viewform?usp=dialog", code=302)
 
 @app.route('/Rpa')
@@ -90,15 +90,15 @@ def fora_redirect():
 #pre-evnts
 
 @app.route('/efootball')
-def fora_redirect():
+def efootball_redirect():
     return redirect("https://forms.gle/ThzaLjyc1nCWvQnZ8", code=302)
 
 @app.route('/bgmi')
-def fora_redirect():
+def bgmi_redirect():
     return redirect("https://forms.gle/NQTMmf5pZTvCTR3YA", code=302)
 
 @app.route('/valorant')
-def fora_redirect():
+def valorant_redirect():
     return redirect("https://forms.gle/WkrV2SQ2vYGtJHy76", code=302)
 
 # Run the Flask app
