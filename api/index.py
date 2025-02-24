@@ -54,6 +54,37 @@ def linux_redirect():
 def rom_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfsZW7F2L7HjQ321fujO88_Ucg-OTKNW-DPcXmHfazUIBqgoQ/viewform", code=302)
 
+@app.route('/ace')
+def ace_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSejP4mdViELaWab3xvAGVov_tkfMKQUFS3CCzrXW1uVddaRIA/viewform?usp=sharing", code=302)
+
+@app.route('/cybersecurity')
+def cybersecurity_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeGOxeWDn-DtjaaYhjc3YXdYazBEoMr6MPteyKmg2dhKFTysw/viewform", code=302)
+
+@app.route('/robotics')
+def robotics_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSda2wAVxzdtgaIzJc0iRwjcl0jKx_75BROm3ffXY8O5ZTLSVw/viewform", code=302)
+
+@app.route('/blueprint')
+def blueprint_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLScJU_W-Kot623vBHqxEoewnkSJcKLPCGHauJExYQ32IOQE7Hw/viewform", code=302)
+
+@app.route('/sketchup')
+def sketchup_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSe9STfnKQ6trMBIEzu8RQDev_ivGALnI7oxdqSokj17uC17Mg/viewform", code=302)
+
+@app.route('/3dprinting')
+def _3dprinting_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLScJU_W-Kot623vBHqxEoewnkSJcKLPCGHauJExYQ32IOQE7Hw/viewform", code=302)
+
+@app.route('/revit')
+def revit_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeOTY4rDjeg8n2kUUCUyV3ZMO6MBQnvrh8WgMUmqMMO2LttnA/viewform", code=302)
+
+
+
+
 # Competitions
 @app.route('/ctf')
 def ctf_redirect():
