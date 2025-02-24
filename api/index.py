@@ -95,10 +95,6 @@ def efootball_redirect():
 def efootball_redirect():
     return redirect("https://forms.gle/WkrV2SQ2vYGtJHy76", code=302)
 
-
-
-
-
 # Only needed if you're running this script directly
 if __name__ == '__main__':
     app.run(debug=True)
