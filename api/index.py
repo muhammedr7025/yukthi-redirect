@@ -58,11 +58,11 @@ def efootball_redirect():
     return redirect("https://forms.gle/NQTMmf5pZTvCTR3YA", code=302)
 
 @app.route('/bgmi')
-def efootball_redirect():
+def bgmi_redirect():
     return redirect("https://forms.gle/NQTMmf5pZTvCTR3YA", code=302)
 
 @app.route('/valorant')
-def efootball_redirect():
+def valorant_redirect():
     return redirect("https://forms.gle/WkrV2SQ2vYGtJHy76", code=302)
 
 
