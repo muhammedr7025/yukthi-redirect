@@ -5,7 +5,6 @@ app = Flask(__name__)
 @app.route('/')
 def web_redirect():
     return redirect("https://yukthi.org", code=302)
-
 @app.route('/Deep-learning')
 def deep_learning_redirect():
     return redirect("https://forms.gle/dgGsjh4PJ83WaYiv7", code=302)
@@ -37,9 +36,26 @@ def unreal_engine_redirect():
 @app.route('/Ai-Llm')
 def ai_llm_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSdLw2aAQQO64Seicvg-h-QMxM_SWAEDjS5Kd5dnT6t1mb-M_g/viewform?usp=header", code=302)
-@app.route('/Entrepreneurship')
-def entrepreneurship_redirect():
-    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSdLbChTkcGMkfNMd4ytZAZQgRgf103TNRQKe7uD1nx9Eeu9lw/viewform?usp=header", code=302)
+
+@app.route('/latex')
+def latex_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSc_cYjOrC-WDGYaUVfPrKlCunxlq4loY4d1vjKKjj4RWHlaMw/viewform?usp=sharing", code=302)
+
+@app.route('/linux')
+def linux_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLScCocDvv741qHVISD3dkAj2GkPmlK6-pkfXntDrcNNblZ2ljg/viewform?usp=sharing", code=302)
+
+@app.route('/rom')
+def rom_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfsZW7F2L7HjQ321fujO88_Ucg-OTKNW-DPcXmHfazUIBqgoQ/viewform?usp=sharing", code=302)
+
+@app.route('/ace')
+def ace_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSejP4mdViELaWab3xvAGVov_tkfMKQUFS3CCzrXW1uVddaRIA/viewform?usp=sharing", code=302)
+
+@app.route('/efootball')
+def efootball_redirect():
+    return redirect("https://forms.gle/NQTMmf5pZTvCTR3YA", code=302)
 # Only needed if you're running this script directly
 if __name__ == '__main__':
     app.run(debug=True)
