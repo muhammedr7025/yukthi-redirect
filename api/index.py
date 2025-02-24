@@ -6,11 +6,11 @@ app = Flask(__name__)
 def web_redirect():
     return redirect("https://yukthi.org", code=302)
 
-@app.route('/deep-learning')
+@app.route('/Deep-learning')
 def deep_learning_redirect():
     return redirect("https://forms.gle/dgGsjh4PJ83WaYiv7", code=302)
 
-@app.route('/game-development')
+@app.route('/Game-development')
 def game_dev_redirect():
     return redirect("https://forms.gle/itc3wofLT7kKpTjZ6", code=302)
 
@@ -18,15 +18,19 @@ def game_dev_redirect():
 def yudhya_hackathon_redirect():
     return redirect("https://yudhya.devfolio.co/overview", code=302)
 
-@app.route('/rpa')
+@app.route('/Entrepreneurship')
+def entrepreneurship_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSdLbChTkcGMkfNMd4ytZAZQgRgf103TNRQKe7uD1nx9Eeu9lw/viewform?usp=dialog", code=302)
+
+@app.route('/Rpa')
 def rpa_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSc9UjbDdzI2qGbIu7snO8nfPIrNgeD8vVaYTW1cSxbkzL9JHw/viewform", code=302)
 
-@app.route('/ui-ux')
+@app.route('/Ui-Ux')
 def ui_ux_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfKvcyB9cPBnjHmVEwGm-JuJf4yey74yzCyg52iTobz-BQF1g/viewform", code=302)
 
-@app.route('/drone-scope')
+@app.route('/Drone-scope')
 def drone_scope_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeDR7oeqkjqsfV9EBGWa5wNGlXKFZlhlLolvvLjKi-M_iJYwg/viewform", code=302)
 
@@ -82,6 +86,20 @@ def act_redirect():
 @app.route('/fora')
 def fora_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSecTUUFI6GdbXvqw8mWb6rDgMmOyBCexif3btjMy3w02e7mBg/viewform", code=302)
+
+#pre-evnts
+
+@app.route('/efootball')
+def fora_redirect():
+    return redirect("https://forms.gle/ThzaLjyc1nCWvQnZ8", code=302)
+
+@app.route('/bgmi')
+def fora_redirect():
+    return redirect("https://forms.gle/NQTMmf5pZTvCTR3YA", code=302)
+
+@app.route('/valorant')
+def fora_redirect():
+    return redirect("https://forms.gle/WkrV2SQ2vYGtJHy76", code=302)
 
 # Run the Flask app
 if __name__ == '__main__':
