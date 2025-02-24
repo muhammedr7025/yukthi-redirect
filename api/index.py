@@ -49,13 +49,43 @@ def linux_redirect():
 def rom_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfsZW7F2L7HjQ321fujO88_Ucg-OTKNW-DPcXmHfazUIBqgoQ/viewform?usp=sharing", code=302)
 
-@app.route('/ace')
+@app.route('/aceinterview')
 def ace_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSejP4mdViELaWab3xvAGVov_tkfMKQUFS3CCzrXW1uVddaRIA/viewform?usp=sharing", code=302)
 
+@app.route('/Entrepreneurship')
+def entrepreneurship_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSdLbChTkcGMkfNMd4ytZAZQgRgf103TNRQKe7uD1nx9Eeu9lw/viewform?usp=dialog", code=302)
+
+@app.route('/robo')
+def robotics_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSda2wAVxzdtgaIzJc0iRwjcl0jKx_75BROm3ffXY8O5ZTLSVw/viewform", code=302)
+
+@app.route('/cybersecurity')
+def cybersec_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeGOxeWDn-DtjaaYhjc3YXdYazBEoMr6MPteyKmg2dhKFTysw/viewform", code=302)
+
+@app.route('/3dprinting')
+def threed_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeTk9TI1FdnAaiDp8YvrLSErRT7yWyGNnh2iuzdfdUF-TDcpQ/viewform", code=302)
+
+@app.route('/blueprint')
+def blueprint_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLScJU_W-Kot623vBHqxEoewnkSJcKLPCGHauJExYQ32IOQE7Hw/viewform", code=302)
+
+@app.route('/revit')
+def revit_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeOTY4rDjeg8n2kUUCUyV3ZMO6MBQnvrh8WgMUmqMMO2LttnA/viewform", code=302)
+
+@app.route('/sketchup')
+def robotics_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSe9STfnKQ6trMBIEzu8RQDev_ivGALnI7oxdqSokj17uC17Mg/viewform", code=302)
+
+# Pre-Event redirects
+
 @app.route('/efootball')
 def efootball_redirect():
-    return redirect("https://forms.gle/NQTMmf5pZTvCTR3YA", code=302)
+    return redirect("https://forms.gle/ThzaLjyc1nCWvQnZ8", code=302)
 
 @app.route('/bgmi')
 def efootball_redirect():
@@ -66,9 +96,9 @@ def efootball_redirect():
     return redirect("https://forms.gle/WkrV2SQ2vYGtJHy76", code=302)
 
 
-@app.route('/Entrepreneurship')
-def entrepreneurship_redirect():
-    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSdLbChTkcGMkfNMd4ytZAZQgRgf103TNRQKe7uD1nx9Eeu9lw/viewform?usp=dialog", code=302)
+
+
+
 # Only needed if you're running this script directly
 if __name__ == '__main__':
     app.run(debug=True)
