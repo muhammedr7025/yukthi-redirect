@@ -78,7 +78,7 @@ def revit_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeOTY4rDjeg8n2kUUCUyV3ZMO6MBQnvrh8WgMUmqMMO2LttnA/viewform", code=302)
 
 @app.route('/sketchup')
-def robotics_redirect():
+def sketchup_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSe9STfnKQ6trMBIEzu8RQDev_ivGALnI7oxdqSokj17uC17Mg/viewform", code=302)
 
 # Pre-Event redirects
