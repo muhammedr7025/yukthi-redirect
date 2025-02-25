@@ -76,7 +76,7 @@ def sketchup_redirect():
 
 @app.route('/3dprinting')
 def _3dprinting_redirect():
-    return redirect("https://docs.google.com/forms/d/e/1FAIpQLScJU_W-Kot623vBHqxEoewnkSJcKLPCGHauJExYQ32IOQE7Hw/viewform", code=302)
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeTk9TI1FdnAaiDp8YvrLSErRT7yWyGNnh2iuzdfdUF-TDcpQ/viewform", code=302)
 
 @app.route('/revit')
 def revit_redirect():
