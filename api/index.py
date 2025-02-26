@@ -130,6 +130,10 @@ def bgmi_redirect():
 def valorant_redirect():
     return redirect("https://forms.gle/WkrV2SQ2vYGtJHy76", code=302)
 
+@app.route('/pinnacle')
+def valorant_redirect():
+    return redirect("https://forms.gle/ZXEZJpXcDGcdgP1KA", code=302)
+
 # Run the Flask app
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
