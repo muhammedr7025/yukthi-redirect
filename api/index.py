@@ -122,6 +122,10 @@ def fora_redirect():
 def efootball_redirect():
     return redirect("https://forms.gle/ThzaLjyc1nCWvQnZ8", code=302)
 
+@app.route('/freefire')
+def freefire_redirect():
+    return redirect("https://forms.gle/LABg4q45EEbu8gts8", code=302)
+
 @app.route('/bgmi')
 def bgmi_redirect():
     return redirect("https://forms.gle/NQTMmf5pZTvCTR3YA", code=302)
