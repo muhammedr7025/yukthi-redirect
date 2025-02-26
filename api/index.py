@@ -81,6 +81,9 @@ def _3dprinting_redirect():
 @app.route('/revit')
 def revit_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSeOTY4rDjeg8n2kUUCUyV3ZMO6MBQnvrh8WgMUmqMMO2LttnA/viewform", code=302)
+@app.route('/customrom')
+def pinnacle_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfsZW7F2L7HjQ321fujO88_Ucg-OTKNW-DPcXmHfazUIBqgoQ/viewform?usp=sharing", code=302)
 
 # Competitions
 
@@ -131,6 +134,12 @@ def act_redirect():
 @app.route('/fora')
 def fora_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSecTUUFI6GdbXvqw8mWb6rDgMmOyBCexif3btjMy3w02e7mBg/viewform", code=302)
+@app.route('/pinnacle')
+def pinnacle_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfO8D-D6EWOyp6nL3iAlGi-b3Hj76LLxdlQtFyw3QdkEHgtcw/viewform?usp=sharing", code=302)
+@app.route('/spanova')
+def spanova_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLScHsbxlj3uhnJPIB3KGCH0eiCA671AwGhwofwJ4o0UZgCfOaw/viewform?usp=sharing", code=302)
 
 #pre-evnts
 
@@ -145,6 +154,10 @@ def bgmi_redirect():
 @app.route('/valorant')
 def valorant_redirect():
     return redirect("https://forms.gle/WkrV2SQ2vYGtJHy76", code=302)
+
+@app.route('/freefire')
+def freefire_redirect():
+    return redirect("https://forms.gle/LABg4q45EEbu8gts8", code=302)
 
 # Run the Flask app
 if __name__ == '__main__':
