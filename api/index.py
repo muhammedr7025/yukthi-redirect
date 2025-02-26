@@ -88,6 +88,10 @@ def revit_redirect():
 def ctf_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSefsoUeAyvETcGTBu0ft7gExKcjR5NVmei9h51zCmqpS7PjVA/viewform", code=302)
 
+@app.route('/pinnacle')
+def pinnacle_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfO8D-D6EWOyp6nL3iAlGi-b3Hj76LLxdlQtFyw3QdkEHgtcw/viewform?usp=sharing", code=302)
+
 @app.route('/blind')
 def blind_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSd5vb-uTRgDi4autLbvVOljIuUVsutZvTiAy-IaGGfOShIjYw/viewform", code=302)
