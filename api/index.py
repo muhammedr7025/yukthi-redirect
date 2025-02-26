@@ -122,7 +122,7 @@ def photo_redirect():
 
 @app.route('/iot')
 def iot_redirect():
-    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSciRo5_OGTEUrhdR5flAzGPwEX_lLzP0i9-jYGHfjoG8J5PTg/viewform", code=302)
+    return redirect("https://forms.gle/Jdk5shc2BSc4zdvH6", code=302)
 
 @app.route('/act')
 def act_redirect():
