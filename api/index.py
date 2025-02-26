@@ -88,33 +88,41 @@ def revit_redirect():
 def ctf_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSefsoUeAyvETcGTBu0ft7gExKcjR5NVmei9h51zCmqpS7PjVA/viewform", code=302)
 
-@app.route('/blind')
-def blind_redirect():
+@app.route('/Blindprgming')
+def Blindprgming_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSd5vb-uTRgDi4autLbvVOljIuUVsutZvTiAy-IaGGfOShIjYw/viewform", code=302)
 
 @app.route('/keyboard')
 def keyboard_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLScdmc9xjS5dt8bkmYE8kyMiOJewccYigiF3GoPPJxUFAoA2JA/viewform", code=302)
 
-@app.route('/circuitdebug')
-def circuitdebug_redirect():
+@app.route('/circuitdebugging')
+def circuitdebugging_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSezrC5itD2CraL2ZgINIO5-JXslBxQYNxUG4828dVSt_uPCEw/viewform", code=302)
 
-@app.route('/photo')
-def photo_redirect():
+@app.route('/photochallenge')
+def photochallenge_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfMFSCHLqpofb7alrzn3letvE2m1gIy__gnkCS4Ha7XY_wmUQ/viewform", code=302)
 
 @app.route('/iot')
 def iot_redirect():
-    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSciRo5_OGTEUrhdR5flAzGPwEX_lLzP0i9-jYGHfjoG8J5PTg/viewform", code=302)
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSdG6zzfn1XJtMBP9cqwWSfXH2Inq2Zwys2FqJ34ec19q-qHkA/viewform", code=302)
 
-@app.route('/act')
-def act_redirect():
+@app.route('/cinemathon')
+def cinemathon_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSdjoB2g0Sw0JacIhy5Cy61Gj9aBWYeXEAhWdRoCCA0gwyF2Qg/viewform", code=302)
 
 @app.route('/fora')
 def fora_redirect():
     return redirect("https://docs.google.com/forms/d/e/1FAIpQLSecTUUFI6GdbXvqw8mWb6rDgMmOyBCexif3btjMy3w02e7mBg/viewform", code=302)
+
+@app.route('/spanova')
+def spanova_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLScHsbxlj3uhnJPIB3KGCH0eiCA671AwGhwofwJ4o0UZgCfOaw/viewform", code=302)
+
+@app.route('/paperpinnacle')
+def paperpinnacle_redirect():
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLSfO8D-D6EWOyp6nL3iAlGi-b3Hj76LLxdlQtFyw3QdkEHgtcw/viewform", code=302)
 
 #pre-evnts
 
@@ -129,6 +137,10 @@ def bgmi_redirect():
 @app.route('/valorant')
 def valorant_redirect():
     return redirect("https://forms.gle/WkrV2SQ2vYGtJHy76", code=302)
+
+@app.route('/freefire')
+def freefire_redirect():
+    return redirect("https://forms.gle/LABg4q45EEbu8gts8", code=302)
 
 # Run the Flask app
 if __name__ == '__main__':
