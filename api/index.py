@@ -146,6 +146,15 @@ def bgmi_redirect():
 def valorant_redirect():
     return redirect("https://forms.gle/WkrV2SQ2vYGtJHy76", code=302)
 
+
+#yasya stufss
+@app.route('/versace')
+def versace_redirect():
+    return redirect("https://forms.gle/1aFyY1aVESqgHu3EA", code=302)
+@app.route('/quadrille')
+def quadrille_redirect():
+    return redirect("https://forms.gle/CMULHTop3ozYZ7mdA", code=302)
+
 # Run the Flask app
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
