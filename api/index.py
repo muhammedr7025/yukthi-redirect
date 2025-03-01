@@ -155,6 +155,7 @@ def versace_redirect():
 def quadrille_redirect():
     return redirect("https://forms.gle/CMULHTop3ozYZ7mdA", code=302)
 
+
 # Run the Flask app
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
